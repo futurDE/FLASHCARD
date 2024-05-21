@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.question {
+    text-align: center;
+}
+
+textarea {
+    width: 99%;
+    display: block;
+    margin: auto;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-size: 15px;
+}
+
+.button-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    width: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 5px;
+    width: 130px;
+}
