@@ -58,6 +58,11 @@ textarea {
     opacity: 0.5;
 }
 
+/*Style to be added dynamically*/
+.light {
+    border: 2px solid #003285;
+}
+
 .buttons-container {
     position: absolute;
     left: 0;

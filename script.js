@@ -130,6 +130,13 @@ questionNav.forEach((nav) => {
         textarea.value = "";
         usersAnswer.textContent = "";
         correctAnswer.textContent = "";
+        questionNav.forEach((nav) => {
+            if (nav.innerHTML == counter) {
+                nav.classList.add("light")
+            } else {
+                nav.classList.remove("light");
+            }
+        });
     });
 });
 
@@ -154,6 +161,14 @@ buttons.forEach((button) => {
             usersAnswer.textContent = "";
             correctAnswer.textContent = "";
         // Handle "previous" button click
+
+        questionNav.forEach((nav) => {
+            if (nav.innerHTML == counter) {
+                nav.classList.add("light")
+            } else {
+                nav.classList.remove("light");
+            }
+        });
         } else if (button.classList.contains("previous")) {
             if (counter > 1 && counter != 1) { // Check if counter is greater than 1 to prevent going below the first question
                 counter--; // Decrement the counter
@@ -166,6 +181,13 @@ buttons.forEach((button) => {
             usersAnswer.textContent = "";
             correctAnswer.textContent = "";
         // Handle "again" button click
+        questionNav.forEach((nav) => {
+            if (nav.innerHTML == counter) {
+                nav.classList.add("light")
+            } else {
+                nav.classList.remove("light");
+            }
+        });
         } else {
             // Clear the textarea and answers display
             textarea.value = "";
