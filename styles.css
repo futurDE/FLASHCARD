@@ -39,8 +39,9 @@ textarea {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 10px auto auto auto;
     overflow-y: scroll;
+    padding: 5px;
 }
 
 .question-nav {
@@ -60,7 +61,7 @@ textarea {
 
 /*Style to be added dynamically*/
 .light {
-    border: 2px solid #003285;
+    border: 2px solid #E72929;
 }
 
 .buttons-container {

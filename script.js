@@ -89,7 +89,7 @@ const questionBank = {
     },
     question20: {
         question: "What is the second way in which the change in total revenue depends on the elasticity of demand?",
-        answer: "one way change in total revenue depends on elasticity of demand: if demand is inelastic, a 1 percent price cut increases the quantity demanded by less than 1 percent and total revenue decreases",
+        answer: "one way change in total revenue depends on elasticity of demand: if demand is inelastic, a 1 percent price cut increases the quantity sold by less than 1 percent and total revenue decreases",
     },
     question21: {
         question: "What is the third way in which the change in total revenue depends on the elasticity of demand?",
@@ -114,6 +114,46 @@ const questionBank = {
     question26: {
         question: "Cross elasticity of demand is negative for a __________?",
         answer: "cross elasticity of demand is negative for a complement",
+    },
+    question27: {
+        question: "Give a real world example of elastic demand.",
+        answer: "luxury handbags",
+    },
+    question28: {
+        question: "What is income elasticity of demand?",
+        answer: "the income elasticity of demand is a units free measure of the responsiveness of the quantity demanded of a good to a change in income, when all other influences on buying plans or selling plans remain the same",
+    },
+    question29: {
+        question: "What is the formula for calculating income elasticity of demand?",
+        answer: "income elasticity of demand = percentage change in quantity demanded/percentage change in income",
+    },
+    question30: {
+        question: "Income elasticities of demand can be positive or negative and they fall into three interesting ranges. List them.",
+        answer: "1.) greater than 1 (normal good, income elastic). 2.) positive and less than 1 (normal good, income inelastic). 3.) negative (inferior good)",
+    },
+    question31: {
+        question: "When the demand for a good is income elastic, the percentage of _________ spent on that good increases as income __________",
+        answer: "income, increases",
+    },
+    question32: {
+        question: "When the demand for a good is income inelastic, the percentage of ________ spent on that good __________ as income ________",
+        answer: "income, decreases, increases",
+    },
+    question33: {
+        question: "What is the elasticity of supply?",
+        answer: "the elasticity of supply is a units free measure of the responsiveness of the quantity supplied of a good to a change in its price when all other influences on selling plans remain the same",
+    },
+    question34: {
+        question: "What is the formula for elasticity of supply?",
+        answer: "elasticity of supply = percentage change in quantity supplied/percentage change in price",
+    },
+    question35: {
+        question: "List the factors that influence the elasticity of supply.",
+        answer: "1.) resource substitution possibilities. 2.) time frame for the supply decision (a.] momentary supply. b.] short-run supply. c.] long run supply)",
+    },
+    question36: {
+        question: "List the ways resources might be allocated",
+        answer: "1.) market price. 2.) command. 3.) majority rul. 4.) contest. 5.) first come, first served. 6.) lottery. 7.) personal characteristics. 8.) force",
     },
     // Additional questions omitted for brevity
 };
